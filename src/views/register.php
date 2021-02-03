@@ -15,10 +15,8 @@
     <form class="form-login" action="#" method="POST">
         <div class="login-card card">
             <div class="card-header">
-                <i class="icofont-brand-steam mr-2"></i>
-                <span class="font-weight-light">In </span>
-                <span class="font-weight-bold mx-2">N' </span>
-                <span class="font-weight-light">OUT</span>
+                <i class="icofont-magican-hat mr-2"></i>
+                
                 <i class="icofont-focus ml-2"></i>
             </div>
             <div class="card-body">
@@ -35,8 +33,7 @@
                 </div>
             </div>
             <div class="card-footer">
-                <button class="btn btn-primary float-right">Entrar</button>
-                <a href="../../src/views/register.php" class="btn btn-success float-left">Cadastrar</a>
+                <button class="btn btn-primary float-right">Enviar</button>
             </div>
         </div>
     </form>
