@@ -1,10 +1,13 @@
 <?php 
 
-class Register extends Model { 
+class Register extends User { 
 
     public function validate() { 
         $errors = [];
 
+        if (!$this->name) { 
+            $errors['name'] = 'Favor preencher o nome'; 
+        }
         if (!$this->email) { 
             $errors['email'] = 'E-Mail é um campo obrigatório';
         }
@@ -17,9 +20,9 @@ class Register extends Model {
         }
     }
 
-    public function registerUser() { 
+    public function validateUser() { 
         $this->validate();
-        $user = Register::getOne(['email' => $this->email]);
+        $user = User::getOne(['email' => $this->email]);
 
         if($user) { 
             if($user->email || $user->name) { 
@@ -27,6 +30,7 @@ class Register extends Model {
             }
         }
     }
+
 
     public function checkLogin() { 
         $this->validate();

@@ -16,9 +16,9 @@
         <div class="login-card card">
             <div class="card-header">
                 <i class="icofont-brand-steam mr-2"></i>
-                <span class="font-weight-light">In </span>
-                <span class="font-weight-bold mx-2">N' </span>
-                <span class="font-weight-light">OUT</span>
+                <span class="font-weight-light">Teste</span>
+                <span class="font-weight-bold mx-2">Game </span>
+                <span class="font-weight-light">Login</span>
                 <i class="icofont-focus ml-2"></i>
             </div>
             <div class="card-body">
@@ -36,7 +36,7 @@
             </div>
             <div class="card-footer">
                 <button class="btn btn-primary float-right">Entrar</button>
-                <a href="../../src/views/register.php" class="btn btn-success float-left">Cadastrar</a>
+                <a href="register.php" class="btn btn-success float-left">Cadastrar</a>
             </div>
         </div>
     </form>
